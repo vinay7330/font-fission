@@ -1,5 +1,5 @@
 function displayText() {
-    var inputText = document.getElementById("given").value;
+    var inputText = document.getElementById("inpt").value;
     var displayText1 = document.getElementById("display-text-1");
     var displayText2 = document.getElementById("display-text-2");
     var displayText3 = document.getElementById("display-text-3");
