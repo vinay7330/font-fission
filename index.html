@@ -12,7 +12,7 @@
 </head>
 <body>
     
-    <header style="background-image: linear-gradient( 125deg,rgb(97, 63, 129),white); color: rgb(191, 45, 45);">
+    <header style="background-image: linear-gradient( 125deg,white,rgb(97, 63, 129)); color:rgb(4, 4, 5);">
         <div class="container" id="cnt">
             <div class="row row-header">
                 <div class="col-12">
@@ -23,14 +23,14 @@
         </div>
     </header>
 <br>
+
+<div class="input-group d-flex">
+    <input type="text" class="input" id="Email" name="Email" placeholder="Enter any text here ..." autocomplete="off">
+    <input class="button--submit" value="Generate Font" type="submit" onclick="displayText()">
+  </div>    
+
 <center>
-    <div >
-<input id="given" placeholder="Enter any text here ...">
-    <input title="Generate font" onclick="displayText()" type="button" value="generate">
-    </div>
-</center>
-<center>
-  <div style="background-image:linear-gradient(135deg,white,rgb(97, 63, 129)) ;">
+  <div style="background-image:linear-gradient(to right,orange,white,white) ;">
                <hr>
                 <div id="display-text-1" class="display-text"></div>
 
@@ -67,3 +67,4 @@
 </body>
 
 </html>
+
