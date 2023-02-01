@@ -1,0 +1,35 @@
+
+   #given{
+    font-size: 20px;
+    border-radius: 15px;
+    background-color:palegreen;
+ }
+input[type=button]{
+   font-size: medium;
+   border-radius: 15px;
+   background-color: bisque;
+}
+.display-text {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 10px;
+    max-width: 70%;
+  }
+  p{
+    font-size: 30px;
+    font-family: gabriola; 
+    font-style: italic; 
+    text-align: center;
+    font-weight: bolder;
+  }
+  h1{
+ font-family:cambria;
+ font-size: 50px;
+ font-style: italic; 
+ text-shadow: 1px 1px white;
+ font-weight:bolder;
+  }
+  #cnt{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  }
